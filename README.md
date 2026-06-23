@@ -2,8 +2,6 @@
 
 A machine learning project that combines **unsupervised clustering** and **supervised classification** to predict stroke risk and uncover hidden patterns in patient health data.
 
-> University of Jeddah — College of Computer Science and Engineering
-> Machine Learning Course Project — Prepared for Dr. Elham Alghamdi
 
 ## 📄 Full Report
 
@@ -97,11 +95,6 @@ pip install -r requirements.txt
 
 Download the dataset from [Kaggle](https://www.kaggle.com/datasets/fedesoriano/stroke-prediction-dataset), save it as `our_data.csv` in this folder, then open `stroke_prediction.ipynb` in Jupyter or Google Colab.
 
-## What we'd improve next
-
-- Improve the balance between precision and recall (current models favor recall)
-- Explore additional ensemble/stacking methods used in related literature (e.g. LightGBM + SMOTE-ENN, which achieved AUC of 0.958 in published research)
-- Add model interpretability tools (e.g. SHAP) to better explain individual predictions to clinicians
 
 ## Team
 
